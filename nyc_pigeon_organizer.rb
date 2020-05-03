@@ -30,12 +30,9 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name][key] = []
         end
       
-      #add converted(to string) inner key values(purple, grey, white) to dnewly create array
+      #add converted(to string) inner key values(purple, grey, white) to array
       pigeon_list[name][key] << inner_key.to_s
       
-      
-        
-      new_hash[pigeon_name][outer_key] << 
         
       #end of array.each 
       end
