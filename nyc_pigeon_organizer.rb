@@ -30,10 +30,12 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name][key] = []
         end
       
+      pigeon_list[name][key] << value
+      
       #end of array.each 
       end
       
-    pigeon_list[name][key] << value
+   
     #end of value.each  
     end
   end
