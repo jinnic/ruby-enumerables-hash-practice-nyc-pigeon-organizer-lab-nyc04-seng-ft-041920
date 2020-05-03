@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     #and look again inside each element arrives at array
       #insert name(stirng) as key(symbol) for new hash and element(symbol) as string
   
-  #d ata(Hash)
+  #data(Hash)
   # key (symbol) - color, gender, lives / value(hash)- hash of {purple, grey, white}
   # inner_key(symbol)- purple, grey, white / array(array) - [Theo, Lucky etc]
   # name(string) - Theo, Lucky etc
